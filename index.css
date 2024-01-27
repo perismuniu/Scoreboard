@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+}
+
+.container {
+    background-color: #1B244A;
+    width: 575px;
+    height: 385px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    color: #EEE;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35.893px;
+
+}
+
+.container-2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+#scores-home {
+    color: #F94F6D;
+    background-color: #080001;
+    text-align: center;
+    font-family: "Cursed Timer ULiL";
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 127px; 
+    width: 155px;
+    height: 120px;
+    border-radius: 6px;
+    margin: 0;
+}
+
+#scores-guest {
+    color: #F94F6D;
+    background-color: #080001;
+    text-align: center;
+    font-family: "Cursed Timer ULiL";
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 127px; 
+    width: 155px;
+    height: 120px;
+    border-radius: 6px;
+    margin: 0;
+}
+
+
+.additions {
+    color: #9AABD8;
+    text-align: center;
+    font-family: "Cursed Timer ULiL";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27.812px;
+    width: 40px;
+    height: 40px;   
+    background-color: #1B244A;
+    margin-top: 20px;
+    border: 1px solid #9AABD8;
+    border-radius: 2px;
+}
+
+.additions:hover {
+    color: #080001;
+}
+
+#reset {
+    color: #9AABD8;
+    text-align: center;
+    justify-content: center;
+    font-family: "Cursed Timer ULiL";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27.812px;
+    width: 120px;
+    height: 40px;   
+    background-color: #1B244A;
+    margin-top: 20px;
+    border: 1px solid #9AABD8;
+    border-radius: 2px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#reset:hover {
+    color: #080001;
+}
